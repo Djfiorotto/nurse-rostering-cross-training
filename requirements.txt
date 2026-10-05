@@ -1,0 +1,6 @@
+text
+numpy
+pandas
+openpyxl
+docplex
+mpi4py

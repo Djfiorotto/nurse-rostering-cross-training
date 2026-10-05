@@ -60,7 +60,7 @@ pip install -r requirements.txt
 To execute the complete optimization model matrix utilizing multi-core parallel processing (via `mpi4py`), run:
 
 ```bash
-python src/main_executor.py
+python src/runcluster3.py
 ```
 
 The script will automatically solve the scheduling model across all cross-training policies (Standard Chain, Best Chain, and Flexibility as a Decision Variable) for 100 simulation loops per configuration. Aggregated `.csv` reports will be exported directly to a newly generated `Results/` folder.
